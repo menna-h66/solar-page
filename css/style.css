@@ -1,0 +1,743 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 75%;
+    margin: auto ;
+} 
+.navBar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 86px;
+    background-color: #0B9586;
+    padding: 16px 12.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999999;
+}
+.navBar .navLogo{
+    Width: 157px;
+    Height:54px;
+    position: relative;
+    background-color: #0b897a;
+}
+.navBar .navLogo img{
+    Width: 100%;
+    Height:100%;
+    position: absolute;
+}
+.navBar .navList {
+    width: 506px;
+    height: 38px;
+}
+.navBar .navList ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.navBar .navList ul li{ 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.94px;
+}
+.navBar .navList ul li a, .navBar .navList ul li a:hover{ 
+    color: #fff;
+    text-decoration: none;
+}
+.navBar .navList .navHome{
+    background-color:#0b897a;
+    border-bottom: 3px solid #545454 ;
+    border-radius: 5px;
+}
+.navBar .navNumber {
+    color: #fff;
+    text-align: right;
+}
+.navBar .navNumber h6{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+@media  (max-width: 991.98px) { 
+    
+    .navBar{
+        position: relative;
+        height: max-content;
+        width: 100%;
+        padding: 16px ;
+        display: block;
+    }
+    .navBar .navList {
+        margin-top: 15px;
+    }
+    .navBar .navList ul{
+        gap: 2%;
+    }
+    .navBar .navNumber{
+        position: absolute;
+        top:    16px;
+        left: 60%;
+        float:initial;
+    }
+    .navBar .navList ul li{ 
+        width: 80%;
+    }
+ }
+
+
+/***************************************main**************************************************/
+main{
+    width: 100%;
+    Height: 650px;
+    margin-top: 86px;
+    background:-webkit-linear-gradient(Left , rgba(0, 0, 0, 0.7) 5%, transparent ),url(../images/main_background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+main .container{
+    padding: 50px 0px;
+}
+main .range{
+    width: 332.83px;
+    color: #fff;
+    margin-bottom:80px ;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+main .range .line{
+    position: relative;
+    width: 220px;
+    margin-left: 10px;
+    height: 3.75px;
+}
+main .range .line1, main .range .line2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #545454;
+}
+main .range .line2{
+    width: 89.01px;
+    background-color: #fff;
+    z-index: 99;
+}
+main .solar_panal{
+    Width: 65%;
+    Gap: 24px;
+    color: #fff;
+}
+main .solar_panal h6{
+    font-size: 52px;
+    font-weight: 600;
+    Line-height:62.93px;
+}
+main .solar_panal p{
+    margin: 20px 0px;
+    font-size:20px;
+    font-weight: 600;
+    Line-height:30px;
+}
+main .solar_panal .solar_panal_btns button , .power .power_info button{
+    Padding:12px 34px;
+    border-radius: 50px;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+main .solar_panal .solar_panal_btns .btn1{
+    background-color: rgba(60, 171, 144, 1);
+}
+main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
+    background-color: rgba(255, 187, 28, 1);
+}
+
+@media (max-width: 1000px) { 
+        main{
+            margin-top: 0px;
+        }
+    main .container{
+        width: 90%;
+    }
+    main .solar_panal{
+        Width: 100%;
+}
+    
+ }
+
+/**************************************************Friendliest*********************************************/
+.friendliest{
+    top: 80px;
+    height: max-content;
+}
+.friendliest .container{
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: 54% 44%;
+    column-gap: 2%;
+}
+.friendliest .container .friendliest_info h4{
+    font-weight: 600;
+    font-size: 42px;
+    Line-height: 50.83px;
+}
+.friendliest .container .friendliest_info p{
+    font-weight: 600;
+    font-size: 16px;
+    Line-height: 24px;
+    margin: 15px 0px;
+    color: rgba(71, 84, 103, 1);
+}
+.friendliest .container .friendliest_info ul{
+    list-style: none;
+}
+.friendliest .container .friendliest_info ul li{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.friendliest .container .friendliest_info ul span{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(132, 189, 58, 1);
+    margin-right: 10px;
+}
+.friendliest .container .friendliest_pic{
+    position: relative;
+    height: 460px;
+}
+.friendliest .container .friendliest_pic img{
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  right: 0px;
+  position: absolute;
+}
+.friendliest .container .friendliest_pic .Piece{
+    position: absolute;
+    Width: 230px;
+    Height: 170px;
+    Padding: 24px 30px;
+    border-radius:12px;
+    bottom: 10px;
+    left: 0px;
+    background-color: rgba(255, 187, 28, 1);
+}
+.friendliest .container .friendliest_pic .Piece i{
+   font-size: 50px;
+}
+.friendliest .container .friendliest_pic .Piece p{
+   font-size: 15px;
+   font-weight: 400;
+   color: rgba(42, 51, 52, 1);
+   margin-top: 28px;
+}
+
+@media  (max-width: 991.98px) { 
+    
+    .friendliest .container{
+        width: 90%;
+        display: block;
+    }
+
+    .friendliest_info{
+        margin-bottom: 30px;
+    }
+ }
+
+
+/**********************************************power***************************************/
+
+.power{
+    width: 100%;
+    height: 505px;
+    background-image: url(../images/power.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0px;
+}
+.power .power_info{
+    height: max-content;
+    color: #fff;
+}
+.power .power_info h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+.power .power_info p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 28px;
+    margin: 32px 0px;
+}
+
+@media  (max-width: 991.98px) { 
+    
+    .power .container{
+        width: 90%;
+    }
+ }
+/**********************************************solar_kits***********************************/
+
+.solar_kits{
+    padding: 50px 0px;
+    text-align: center;
+}
+ .solar_kits_info{
+    width: 55%;
+    margin: auto;
+}
+ .solar_kits_info h1{
+    font-weight: 600;
+    font-size: 42px;
+    letter-spacing: -1px;
+}
+ .solar_kits_info p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(71, 84, 103, 1);
+    margin: 24px 0px 40px;
+}
+.solar_kits_cards{
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 32%);
+    column-gap: 2%;
+}
+.solar_kits_cards .solar_kits_card{
+    box-shadow: 0 0 80px 7px #eaeaea;
+    height: 465px;
+}
+.solar_kits_cards .solar_kits_card img{
+    width: 100%;
+    height: 240px;
+}
+.solar_kits_card .solar_kits_downSide{
+    padding: 20px;
+    text-align: left;
+}
+.solar_kits_card .solar_kits_downSide h1 , .energy_card h1{
+    font-weight: 600;
+    font-size: 20px;
+}
+.solar_kits_card .solar_kits_downSide p , .energy_card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(71, 84, 103, 1);
+    margin: 20px 0px;
+}
+.solar_kits_card .solar_kits_downSide a ,.energy_card a{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(60, 171, 144, 1);
+    text-decoration: none;
+}
+.solar_kits_card .solar_kits_downSide a i , .energy_card i{
+    margin-left: 8px;
+}
+
+@media  (max-width: 991.98px) { 
+    
+    .solar_kits_info{
+        width: 80%;
+    }
+    .solar_kits_cards{
+        width: 80%;
+        display: block;
+    }
+    .solar_kits_cards .solar_kits_card{
+        margin-bottom: 30px;
+    }
+ }
+/******************************Repairs************************************/
+
+.Repairs{
+    width: 100%;
+    height: 505px;
+    background-image: url(../images/Repairs.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Repairs .Repairs_info{
+    width: 858px;
+    height: max-content;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 44px;
+}
+.Repairs .Repairs_info h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+.Repairs .Repairs_info p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 32px;
+}
+@media  (max-width: 991.98px) { 
+    
+    .Repairs .Repairs_info{
+        height: max-content;
+        padding: 35px;
+    }
+    .Repairs .Repairs_info h1{
+        font-size: 30px;
+    }
+    .Repairs .Repairs_info p{
+        font-size: 18px;
+ }
+}
+/***************************energy_innovators*************************/
+
+.energy{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: rgba(255, 187, 28, 0.05);
+}
+.energy .container{
+    display: grid;
+    grid-template-columns: 33% repeat(2, 31.5%);
+    column-gap: 2%;
+}
+.energy .energy_column1 .energy_icon{
+    width: 56px;
+    height: 56px;
+    background-color: rgba(60, 171, 144, 1);
+    box-shadow: 0 0 1px 7px rgba(60, 171, 144, 0.15);
+    border-radius: 7px;
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.energy .energy_column1 h1{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50.83px;
+    margin: 28px 0px;
+}
+.energy .energy_column1 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(71, 84, 103, 1);
+}
+.energy .energy_column .energy_card{
+    padding: 24px;
+    border: 1px solid rgba(60, 171, 144, 1);
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+.energy .energy_card .energy_card_img{
+    width: 100%;
+    height: 106px;
+    background-color:rgba(60, 171, 144, 0.15);
+    margin-bottom: 32px;
+}
+.energy .energy_card .energy_card_img img{
+    width: 100%;
+    height: 100%;
+}
+
+@media  (max-width: 991.98px){
+
+    .energy .container{
+        display: block;
+    }
+    .energy .energy_column1 h1{
+        margin: 20px 0px 0px;
+    }
+    .energy .energy_column1 p{
+        margin: 10px 0px;
+    }
+}
+
+/***************************************our_values**********************************/
+
+.our_values .container{
+    text-align: center;
+    padding: 80px 0px;
+}
+.our_values .our_values_columns{
+    display: grid;
+    grid-template-columns: repeat(3 ,32%);
+    column-gap: 2%;
+    margin-top: 32px;
+}
+.our_values .our_values_columns .our_values_card{
+    background-color: rgba(60, 171, 144, 0.05);
+    border: 1px solid rgba(60, 171, 144, 1);
+    border-radius: 12;
+    padding: 20px;
+    text-align: left;
+}
+.our_values .our_values_columns .our_values_card i{
+    font-size: 45px;
+    color: rgba(60, 171, 144, 1);
+}
+.our_values .our_values_columns .our_values_card h1{
+    font-size: 20px;
+    font-weight: 600 ;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+.our_values .our_values_columns .our_values_card p{
+    font-size: 16px;
+    font-weight: 400 ;
+    line-height: 24px;
+    color: rgba(71, 84, 103, 1);
+}
+
+@media  (max-width: 991.98px){
+    .our_values .our_values_columns{
+        display: block;
+    }
+    .our_values .our_values_columns .our_values_card{
+        margin-bottom: 30px;
+    }
+}
+
+/************************************whatTheySay*********************************************/
+
+.whatTheySay .container{
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: 35% 63%;
+    column-gap: 2%;
+}
+.whatTheySay .quote{
+    margin: 50px 0px;
+}
+.whatTheySay .quote i{
+    font-size:60px;
+    color: rgba(60, 171, 144, 1);
+}
+.whatTheySay .quote h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 28px 0px;
+}
+.whatTheySay .quote p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(28, 28, 28, 1);
+    line-height: 32px;
+}
+.whatTheySay .slider{
+   background-color: rgba(60, 171, 144, 0.06);
+   padding: 40px;
+}
+.whatTheySay .slider .slider_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(60, 171, 144, 1);
+}
+.whatTheySay .slider .slider_head i{
+    font-size: 6px;
+    color: rgba(217, 217, 217, 1);
+    letter-spacing: 3px;
+}
+.whatTheySay .slider .slider_head .dot1{
+    color: rgba(107, 107, 107, 1);
+}
+.whatTheySay .slider .slider_p{
+   color: rgba(16, 24, 40, 1);
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 36px;
+   margin: 40px 0px;
+   width: 85%;
+}
+.slider_footer, .slider_footer .slider_info{
+    display: flex;
+    align-items: center;
+    line-height: -2px;
+}
+.slider_footer{
+    justify-content: space-between;
+}
+.slider_footer  img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.slider_footer .user_info h1{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 19.36px;
+    margin: 0px 0px 10px;
+}
+.slider_footer .user_info p{
+    font-size: 16px;
+    font-weight: 600px;
+    margin: 0px;
+}
+.slider_footer .slider_arrow i{
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 8px 11px;
+    margin-left: 10px;
+}
+
+@media  (max-width: 991.98px){
+    
+    .whatTheySay .container{
+        width: 90%;
+        display: block;
+        margin-top: -40px;
+    }
+    .whatTheySay .slider .slider_p{
+       font-size: 20px;
+       line-height: 36px;
+       width: 100%;
+    }
+    .slider_footer{
+        display: block;
+    }
+    .slider_footer .slider_arrow i{
+        margin-top: 15px;
+        
+    }
+    .slider_footer .slider_arrow{
+        text-align: center;
+    }
+    
+}
+/***********************************footer*******************************/
+
+footer{
+    background: rgba(40, 54, 70, 1);
+}
+footer .container{
+    padding: 80px 0px;
+}
+footer .footer_upSide , footer .footer_downSide{
+   display: grid;
+   grid-template-columns: repeat(2 , 50%);
+}
+footer .footer_upSide img{
+   width: 185px;
+   height: 64px;
+}
+footer .footer_upSide .footer_list ul {
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    margin-top: 38px;
+}
+footer .footer_upSide .footer_list a, footer .footer_upSide  label{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+footer .footer_upSide .footer_lSide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+footer .footer_upSide .footer_lSide .footer_lSide_container{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+footer .footer_lSide .footer_lSide_input{
+    position: relative;
+    height: 48px;
+    width: 406px;
+    margin-top: 10px;
+}
+footer .footer_upSide .footer_lSide input , footer .footer_upSide .footer_lSide .subscribe{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 38px;
+    border-color: rgba(179, 189, 199, 1);
+    bottom: 0px;
+    right: 0px;
+}
+footer .footer_upSide .footer_lSide .subscribe{
+    width: 147px;
+    background-color: rgba(255, 187, 28, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 100;
+}
+hr{
+    height: 3px;
+    margin: 40px 0px;
+    background-color: rgba(113, 119, 125, 1);
+    border: none;
+}
+
+.footer_downSide ,.footer_downSide .rside a{
+    color: rgba(146, 152, 159, 1);
+    font-size: 12px ;
+    font-weight: 300 ;
+    letter-spacing: 0.26px;
+    text-decoration: none;
+}
+.footer_downSide .lside{
+    text-align: right;
+}
+
+@media  (max-width: 991.98px){
+    footer .container{
+        width: 90%;
+    }
+    footer .footer_lSide .footer_lSide_input{
+        width: 100%;
+    }
+    footer .footer_upSide .footer_lSide .footer_lSide_container{
+        position: relative;
+        margin-top: 30px;
+    }
+    footer .footer_upSide , footer .footer_downSide{
+        display: block;
+     }
+
+    .footer_downSide .lside{
+        text-align: left;
+        margin-top: 10px;
+    }
+}
