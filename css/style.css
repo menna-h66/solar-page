@@ -72,7 +72,7 @@
     font-weight: 700;
 }
 
-@media  (max-width: 991.98px) { 
+@media  (min-width: 576) { 
     
     .navBar{
         position: relative;
@@ -170,7 +170,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     background-color: rgba(255, 187, 28, 1);
 }
 
-@media (max-width: 1000px) { 
+@media (min-width: 576) { 
         main{
             margin-top: 0px;
         }
@@ -252,7 +252,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
    margin-top: 28px;
 }
 
-@media  (max-width: 991.98px) { 
+@media  (min-width: 576) { 
     
     .friendliest .container{
         width: 90%;
@@ -291,7 +291,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     margin: 32px 0px;
 }
 
-@media  (max-width: 991.98px) { 
+@media  (min-width: 576) { 
     
     .power .container{
         width: 90%;
@@ -358,7 +358,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     margin-left: 8px;
 }
 
-@media  (max-width: 991.98px) { 
+@media  (min-width: 576) { 
     
     .solar_kits_info{
         width: 80%;
@@ -404,7 +404,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     color: rgba(255, 255, 255, 1);
     margin-top: 32px;
 }
-@media  (max-width: 991.98px) { 
+@media  (min-width: 576) { 
     
     .Repairs .Repairs_info{
         height: max-content;
@@ -470,7 +470,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     height: 100%;
 }
 
-@media  (max-width: 991.98px){
+@media  (min-width: 576){
 
     .energy .container{
         display: block;
@@ -519,7 +519,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     color: rgba(71, 84, 103, 1);
 }
 
-@media  (max-width: 991.98px){
+@media  (min-width: 576){
     .our_values .our_values_columns{
         display: block;
     }
@@ -614,7 +614,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     margin-left: 10px;
 }
 
-@media  (max-width: 991.98px){
+@media  (min-width: 576){
     
     .whatTheySay .container{
         width: 90%;
@@ -721,7 +721,7 @@ hr{
     text-align: right;
 }
 
-@media  (max-width: 991.98px){
+@media  (min-width: 576){
     footer .container{
         width: 90%;
     }
