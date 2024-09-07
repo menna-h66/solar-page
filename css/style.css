@@ -181,20 +181,23 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
             margin: 0px;
         }
     main .container{
-        width: 95%;
+        width: 90%;
     }
     main .solar_panal{
         Width: 100%;
     }
     main .solar_panal h6{
-        font-size: 35px;
-        Line-height:62.93px;
+        font-size: 32px;
+        Line-height:45px;
     }
     main .solar_panal p{
-        margin: 20px 0px;
         font-size:20px;
-        font-weight: 600;
+        font-weight: 400;
         Line-height:30px;
+    }
+        
+    main .solar_panal .solar_panal_btns .btn2 {
+        margin-top: 20px;
     }
     
  }
@@ -278,6 +281,10 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     .friendliest_info{
         margin-bottom: 30px;
     }
+    .friendliest .container .friendliest_info h4{
+        font-size: 30px;
+        font-weight: 700;
+    }
  }
 
 
@@ -307,10 +314,17 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     margin: 32px 0px;
 }
 
-@media  (min-width: 576px){ 
-    
+@media (max-width: 950px){ 
+        
+    .power{
+        padding: 100px 0px;
+        background-color: yellowgreen;
+    }
     .power .container{
         width: 90%;
+    }
+    .power .power_info h1{
+        font-size: 36px;
     }
  }
 /**********************************************solar_kits***********************************/
@@ -343,7 +357,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
 }
 .solar_kits_cards .solar_kits_card{
     box-shadow: 0 0 80px 7px #eaeaea;
-    height: 465px;
+    height: max-content;
 }
 .solar_kits_cards .solar_kits_card img{
     width: 100%;
@@ -374,7 +388,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     margin-left: 8px;
 }
 
-@media  (min-width: 576px) { 
+@media  (max-width: 950px) { 
     
     .solar_kits_info{
         width: 80%;
@@ -420,14 +434,14 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     color: rgba(255, 255, 255, 1);
     margin-top: 32px;
 }
-@media  (min-width: 576px) { 
+@media  (max-width: 950px) { 
     
     .Repairs .Repairs_info{
         height: max-content;
         padding: 35px;
     }
     .Repairs .Repairs_info h1{
-        font-size: 30px;
+        font-size: 36px;
     }
     .Repairs .Repairs_info p{
         font-size: 18px;
@@ -486,7 +500,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     height: 100%;
 }
 
-@media  (min-width: 576px){
+@media (max-width: 950px){
 
     .energy .container{
         display: block;
@@ -535,7 +549,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     color: rgba(71, 84, 103, 1);
 }
 
-@media  (min-width: 576px){
+@media   (max-width: 950px){
     .our_values .our_values_columns{
         display: block;
     }
@@ -630,7 +644,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     margin-left: 10px;
 }
 
-@media  (min-width: 576px){
+@media   (max-width: 950px){
     
     .whatTheySay .container{
         width: 90%;
@@ -737,7 +751,7 @@ hr{
     text-align: right;
 }
 
-@media  (min-width: 576px){
+@media   (max-width: 950px){
     footer .container{
         width: 90%;
     }
