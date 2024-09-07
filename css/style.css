@@ -5,6 +5,11 @@
     outline: none;
     font-family: 'Inter', sans-serif;
 }
+@media  (min-width: 576px){
+    body{
+        width: 100%;
+    }
+}
 .container{
     width: 75%;
     margin: auto ;
