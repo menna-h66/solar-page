@@ -74,56 +74,6 @@
 
 @media  (min-width: 576px) { 
     
-.navBar .navLogo{
-    Width: 110px;
-    Height:54px;
-    position: relative;
-    background-color: #0b897a;
-}
-.navBar .navLogo img{
-    Width: 100%;
-    Height:100%;
-    position: absolute;
-}
-.navBar .navList {
-    width: 506px;
-    height: 38px;
-}
-.navBar .navList ul{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    list-style: none;
-    gap: 10px;
-}
-.navBar .navList ul li{ 
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 0.94px;
-}
-.navBar .navList ul li a, .navBar .navList ul li a:hover{ 
-    color: #fff;
-    text-decoration: none;
-}
-.navBar .navList .navHome{
-    background-color:#0b897a;
-    border-bottom: 3px solid #545454 ;
-    border-radius: 5px;
-}
-.navBar .navNumber {
-    color: #fff;
-    text-align: right;
-}
-.navBar .navNumber h6{
-    font-size: 22px;
-    font-weight: 700;
-}
-    
     .navBar{
         position: relative;
         height: max-content;
@@ -131,8 +81,17 @@
         padding: 16px ;
         display: block;
     }
-    .navBar .navList {
+    .navBar .navLogo{
+        Width: 110px;
         margin-top: 15px;
+    }
+    .navBar .navList {
+        width: 100%;
+        height: 38px;
+    }
+    .navBar .navList ul li{ 
+        height: 100%;
+        width: 80%;
     }
     .navBar .navList ul{
         gap: 2%;
@@ -142,9 +101,6 @@
         top:    16px;
         left: 60%;
         float:initial;
-    }
-    .navBar .navList ul li{ 
-        width: 80%;
     }
  }
 
