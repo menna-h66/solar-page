@@ -88,6 +88,8 @@
     .navBar .navList {
         width: 100%;
         height: 38px;
+        position: absolute;
+        bottom: 10px;
     }
     .navBar .navList ul li{ 
         height: 100%;
