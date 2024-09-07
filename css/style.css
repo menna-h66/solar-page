@@ -95,6 +95,11 @@
     }
     .navBar .navList ul{
         position: absolute;
+        gap: 0px;
+    }
+    .navBar .navList ul li{
+        font-size: 12px;
+        font-weight: 700;
     }
     .navBar .navNumber{
         float: right;
@@ -102,7 +107,10 @@
         top: -30px;
         display: block;
     }
- }
+    .navBar .navNumber h6{
+        font-size: 18px;
+    }
+}
 
 
 /***************************************main**************************************************/
@@ -187,7 +195,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
         Width: 100%;
     }
     main .solar_panal h6{
-        font-size: 32px;
+        font-size: 30px;
         Line-height:45px;
     }
     main .solar_panal p{
@@ -324,7 +332,7 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
         width: 90%;
     }
     .power .power_info h1{
-        font-size: 36px;
+        font-size: 30px;
     }
  }
 /**********************************************solar_kits***********************************/
@@ -393,6 +401,9 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     .solar_kits_info{
         width: 80%;
     }
+    .solar_kits_info h1{
+       font-size: 30px;
+    }
     .solar_kits_cards{
         width: 80%;
         display: block;
@@ -438,10 +449,11 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     
     .Repairs .Repairs_info{
         height: max-content;
-        padding: 35px;
+        padding: 28px;
+        width: 100%;
     }
     .Repairs .Repairs_info h1{
-        font-size: 36px;
+        font-size: 30px;
     }
     .Repairs .Repairs_info p{
         font-size: 18px;
@@ -507,6 +519,8 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
     }
     .energy .energy_column1 h1{
         margin: 20px 0px 0px;
+        font-size: 30px;
+        font-weight: 700;
     }
     .energy .energy_column1 p{
         margin: 10px 0px;
@@ -651,6 +665,9 @@ main .solar_panal .solar_panal_btns .btn2 , .power .power_info button{
         display: block;
         margin-top: -40px;
     }
+    .whatTheySay .quote h1{
+        font-size: 30px;
+    }
     .whatTheySay .slider .slider_p{
        font-size: 20px;
        line-height: 36px;
@@ -744,6 +761,7 @@ hr{
     color: rgba(146, 152, 159, 1);
     font-size: 12px ;
     font-weight: 300 ;
+    line-height: 20px;
     letter-spacing: 0.26px;
     text-decoration: none;
 }
@@ -765,9 +783,12 @@ hr{
     footer .footer_upSide , footer .footer_downSide{
         display: block;
      }
-
+     footer .footer_upSide .footer_list a{
+        margin-right: 10px;
+        font-size: 12px;
+    }
     .footer_downSide .lside{
         text-align: left;
-        margin-top: 10px;
+        margin-top: 40px;
     }
 }
